@@ -1,0 +1,56 @@
+1)
+pwd
+2.1)
+cd /tmp
+2.2)
+ls
+ls -a
+ls -c
+ls -d
+ls -h
+ls -i
+ls -l
+2.3)
+ls /var/spool | grep cron
+ls -lX /var/spool | grep cron
+2.4)
+cd ~
+ls -l
+3.1)
+mkdir newdir
+ls -a
+3.2)
+mkdir ~/newdir/morefun
+ls ~/newdir
+3.3)
+mkdir letters momor misk
+ls
+rmdir letters momor misk
+3.4)
+rm ~/newdir (нужно -R)
+ls
+3.5)
+rmdir ~/newdir/morefun
+ls ~/newdir
+rm -r ~/newdir
+ls
+4)
+man ls
+ls -R
+5)
+man ls
+ls -tl
+6)
+man cd
+man pwd
+man mkdir
+man rmdir
+man rm
+7)
+history
+history | grep ls
+history -d 3
+history 
+!10:s/newdir/nw
+ls
+history -c
